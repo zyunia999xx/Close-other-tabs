@@ -1,0 +1,14 @@
+{
+    "name": "Close other tabs",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Closes all tabs except the current one",
+    "permissions": ["tabs"],
+    "action": {
+      "default_icon": "icon.png",
+      "default_title": "Close other tabs"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
